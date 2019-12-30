@@ -1,0 +1,1 @@
+cmd_/home/pi/raspi_led_driver/myled.ko := ld -r  -EL -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/pi/raspi_led_driver/myled.ko /home/pi/raspi_led_driver/myled.o /home/pi/raspi_led_driver/myled.mod.o ;  true
